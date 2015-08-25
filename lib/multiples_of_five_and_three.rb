@@ -4,7 +4,7 @@ def sum_of_multiples(num)
 end
 
 def is_a_multiple?(num)
-  num.downto(0).select do |i| 
-    i % 3 == 0 || i % 5 == 0
+  num.downto(0).select do |integer| 
+    integer % 3 == 0 || integer % 5 == 0
   end
 end

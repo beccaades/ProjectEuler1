@@ -25,10 +25,10 @@ describe "MultiplesThreeFive" do
       expect(MultiplesThreeFive.new(100).sum_of_multiples).to eq(2318)
     end
   end
+
+  describe "project euler solution" do
+    it "returns the correct solution" do
+      expect(app.sum_of_multiples).to eq(233168)
+    end
+  end
 end
-
-
-#   it 'returns the correct sum when the limit is 1000' do
-#     expect(sum_of_multiples(1000)).to eq(233168)
-#   end
-# end
